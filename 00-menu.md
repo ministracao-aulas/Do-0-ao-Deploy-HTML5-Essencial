@@ -4,6 +4,9 @@
 - [03 - Atributos](03-atributos.md)
 - [04 - Tags de HEAD](04-tags-de-head.md)
 - [05 - Tags de BODY](05-tags-de-body.md)
+- [06 - Tags que transitam entre BODY e HEAD](06-tags-que-transitam-entre-body-e-head.md)
+- [07 - Links](07-tag-a-links.md)
+- [08 - Forms](08-forms.md)
 
 ---
 ---

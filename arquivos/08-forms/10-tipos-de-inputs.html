@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        Para um formulário básico é preciso:
+        - Tag form
+        - Método
+        - Action
+        - Inputs (input, textarea, checkboxes, select, etc)
+        - Ação de enviar: input/button do tipo submit
+    -->
+    <form action="https://www.w3schools.com/action_page.php" method="POST">
+        <input type="text" name="text" placeholder="text" required><br>
+        <input type="number" name="number" placeholder="number" required><br>
+        <input type="email" name="email" placeholder="email" required><br>
+        <input type="date" name="date" placeholder="date" min="2021-05-01" max="2021-05-10" required><br>
+        <input type="time" name="time" placeholder="time" required><br>
+        <input type="color" name="color" placeholder="color" required><br>
+        <input type="button" name="button" placeholder="button"><br>
+        <input type="checkbox" name="checkbox" placeholder="checkbox"><br>
+        <input type="datetime-local" name="datetime_local" placeholder="datetime-local"><br>
+        <input type="file" name="file" placeholder="file"><br>
+        <input type="hidden" name="hidden" placeholder="hidden"><br>
+        <input type="image" name="image" placeholder="image"><br>
+        <input type="month" name="month" placeholder="month"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="radio" name="radio" placeholder="radio"><br>
+        <input type="range" name="range" placeholder="range"><br>
+        <input type="reset" name="reset" placeholder="reset"><br>
+        <input type="search" name="search" placeholder="search"><br>
+        <input type="submit" name="submit" placeholder="submit"><br>
+        <input type="tel" name="tel" placeholder="tel"><br>
+        <input type="time" name="time" placeholder="time"><br>
+        <input type="url" name="url" placeholder="url"><br>
+        <input type="week" name="week" placeholder="week"><br>
+        <textarea name="area" placeholder="area" cols="30" rows="10"></textarea>
+        <br>
+        <select name="valore_option" id="">
+            <option value="">Selecione um valor</option>
+            <option value="valor1">valor1</option>
+            <option value="valor2">valor2</option>
+            <option value="valor3">valor3</option>
+            <option value="valor4">valor4</option>
+            <option value="valor5">valor5</option>
+            <option value="valor6">valor6</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>
